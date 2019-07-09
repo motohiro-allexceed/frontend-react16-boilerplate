@@ -1,0 +1,28 @@
+:root {
+  /* 変数名は--から始める必要がある */
+  --primary-color: skyblue;
+}
+
+html {
+  /* var(変数名)で変数を参照 */
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  animation: foo;
+}
+
+/*
+body {
+  color: skyblue;
+  font-size: 0.9rem;
+  animation: foo;
+}
+*/
+
+.bar {
+  color: white;
+
+  /* ネスト記法で.bazのスタイルを追加 */
+  & .baz {
+    color: blue;
+  }
+}

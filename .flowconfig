@@ -1,0 +1,13 @@
+[ignore]
+# Flowの対象除外ファイルパスを記述
+
+[include]
+# ルート以外のFlowの対象ファイルパスを記述
+
+[libs]
+# 外部のFlow定義等のファイルパスを記述
+
+[options]
+# オプションの定義を記述
+
+# https://flow.org/en/docs/config/
