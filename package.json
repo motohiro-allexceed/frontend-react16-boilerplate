@@ -35,7 +35,7 @@
     "postcss-nesting": "^7.0.0",
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.8.6",
-    "stylelint": "^10.1.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-standard": "^18.3.0",
     "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4",
